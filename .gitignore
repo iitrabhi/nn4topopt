@@ -101,4 +101,6 @@ ENV/
 
 # data
 *.h5
+*.npz
+summary/
 

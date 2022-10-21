@@ -2,7 +2,9 @@ from __future__ import print_function, division
 import os 
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
 from keras.backend import learning_phase
 
 import conv_model
