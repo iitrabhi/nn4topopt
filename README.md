@@ -15,6 +15,21 @@ In order to work with dataset easier, we aggregate the files into one `.h5` data
 python prepare_data.py --source SOURCE_FOLDER --dataset-path WHERE_TO_SAVE
 ```
 
+## Quick run
+- For this demo `main directory` is the folder conaining `experiments.sh`. Do not change the location of any file or folder in this repository.
+- In terminal change the current directory to `main directory`.
+- Download the data [TOP4040.zip](https://yadi.sk/d/1EE7UdYJChIkQQ) to the `main directory`.
+- Unzip the data to a folder named `TOP4040` inside `main directory`.
+- Run the following command in the `main directory`.
+
+```bash
+python prepare_data.py --source TOP4040/ --dataset-path ./top_dataset.h5
+```
+- Once the `top_dataset.h5` is created, run the following command in the `main directory`.
+```bash
+sh experiments.sh
+```
+
 ## Training
 You can train the model with script `training.py`. Here is the list of arguments:
 
