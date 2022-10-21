@@ -34,6 +34,7 @@ python prepare_data.py --source TOP4040/ --dataset-path ./top_dataset.h5
 ```bash
 sh experiments.sh
 ```
+- The above command will create the training models. Next we need to run the `results.ipynb` file to get solution.
 
 ## Training
 You can train the model with script `training.py`. Here is the list of arguments:
