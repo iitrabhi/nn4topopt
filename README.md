@@ -14,6 +14,11 @@ In order to work with dataset easier, we aggregate the files into one `.h5` data
 ```bash
 python prepare_data.py --source SOURCE_FOLDER --dataset-path WHERE_TO_SAVE
 ```
+## Installation
+Download and install [anaconda](https://www.anaconda.com/products/distribution) and then run the following command
+```bash
+python3 -m pip install tensorflow
+```
 
 ## Quick run
 - For this demo `main directory` is the folder conaining `experiments.sh`. Do not change the location of any file or folder in this repository.
